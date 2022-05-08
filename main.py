@@ -55,10 +55,10 @@ if __name__ == "__main__":
         jobs = findIndeedJobs(jobTitle, location)
         
         # Write Jobs in Text File
-        timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-        filePath = f"files/jobPostsTextFiles/indeed_{jobTitle.replace(' ', '_')}_{timestamp}.txt"
-        print(f"Writing jobs to {filePath} ...")
-        writeJobsInTextFile(jobs, filePath)
+        # timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+        # filePath = f"files/jobPostsTextFiles/indeed_{jobTitle.replace(' ', '_')}_{timestamp}.txt"
+        # print(f"Writing jobs to {filePath} ...")
+        # writeJobsInTextFile(jobs, filePath)
 
         # Write Jobs in CSV File
         timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
